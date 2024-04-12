@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GraterNumber</title>
+    <script>
+      function bginumber() {
+        num1 = parseInt(prompt("Enter first number"));
+        num2 = parseInt(prompt("Enter second number"));
+        if (num1 >= num2) {
+          document.getElementById("result").value = "first number is greter";
+        } else {
+          document.getElementById("result").value = "second number is greter";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <input id="result" type="text" />
+    <button onclick="bginumber()">click</button>
+  </body>
+</html>
